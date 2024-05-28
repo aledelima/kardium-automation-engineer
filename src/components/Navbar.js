@@ -21,6 +21,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../avatar.png";
 
 import Footer from "../components/Footer";
+import { School } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
@@ -51,9 +52,10 @@ const useStyles = makeStyles((theme) => ({
 
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
-  { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
-  { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
+  { listIcon: <AssignmentInd />, listText: "Working Experiences", listPath: "/experiences" },
+  { listIcon: <School />, listText: "Education", listPath: "/education" },
+  { listIcon: <Apps />, listText: "Academic Awards", listPath: "/portfolio" },
+  // { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];
 
 const Navbar = () => {
@@ -94,7 +96,7 @@ const Navbar = () => {
               <ArrowBack className={classes.arrow} />
             </IconButton>
             <Typography variant="h5" className={classes.title}>
-              Portfolio
+              Menu
             </Typography>
           </Toolbar>
         </AppBar>

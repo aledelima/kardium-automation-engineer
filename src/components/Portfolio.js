@@ -23,58 +23,45 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
   cardContainer: {
+    background: "black",
+    color: "tan",
     maxWidth: 345,
     margin: "3rem auto",
+  },
+  cardTitle: {
+    color: "tomato",
   },
 }));
 
 const projects = [
   {
-    name: "Project 1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
-    image: project1,
-  },
-  {
-    name: "Project 2",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project2,
-  },
-  {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Scientific Iniation Programs",
+    description: `Developed a prototype and conducted experiments in dynamic magnetic levitation.`,
     image: project3,
   },
   {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "Studen Assistant",
+    description: `During my undergraduate studies, I worked as a student assistant, helping students build programs for the Numerical Calculations course using Fortran.`,
+    image: project3,
+  },
+  {
+    name: "Scientific Publications",
+    description: `The candidate has authored various scientific papers focusing on studies in Control and Material Engineering.`,
+    image: project3,
+  },
+  {
+    name: "Registered Product Patents",
+    description: `As a member of a team, contributed to the registration of patents for two novel systems in Brazil.`,
     image: project4,
   },
   {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "LabVIEW Certiﬁcation ",
+    description: `Proficient in LabVIEW programming, certified by National Instruments.`,
     image: project5,
   },
   {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "50%+ of Grades A",
+    description: `Consistently achieved a grade of A or higher in over 50% of coursework during my post-diploma studies at Douglas College. `,
     image: project6,
   },
 ];
@@ -89,29 +76,31 @@ const Portfolio = () => {
           <Grid item xs={12} sm={8} md={4} key={i}>
             <Card className={classes.cardContainer}>
               <CardActionArea>
-                <CardMedia
+                {/* <CardMedia
                   component="img"
                   alt="Project 1"
                   height="140"
                   image={project.image}
-                />
+                /> */}
+                
                 <CardContent>
-                  <Typography variant="h5" gutterBottom>
+                  <Typography variant="h5" gutterBottom className={classes.cardTitle}>
                     {project.name}
                   </Typography>
-                  <Typography variant="body2" color="textSecondary">
+                  <hr />
+                  <Typography variant="body2" color="tan" style={{ fontWeight: 'bold' }}>
                     {project.description}
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
+              {/* <CardActions>
                 <Button size="small" color="primary">
                   Share
                 </Button>
                 <Button size="small" color="primary">
                   Live Demo
                 </Button>
-              </CardActions>
+              </CardActions> */}
             </Card>
           </Grid>
         ))}

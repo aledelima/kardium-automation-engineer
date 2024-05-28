@@ -109,19 +109,19 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Resume = () => {
+const Education = () => {
   const classes = useStyles();
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        Education
       </Typography>
       <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2009
+          2000
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,24 +129,16 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Automation Engineer Internship
+            Technical Diploma in Data Processing 
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Agnus Electronic Technologies
+          Santa Mônica School, Rio de Janeiro, Brazil
           </Typography>
           <Typography
             variant="subtitle1"
             align="left"
             className={classes.subtitle1}
-          >
-            <ul>
-              <li>Designed and Maintained SCADA Systems (iFix, Elipse)</li>
-              <li>Process Automation with CLPs (GE Fanuc, Siemens, Allen-Bradley, Omron)</li>
-              <li>Built user interfaces Human Machine Devices</li>
-              <li>Created Software for Logging and Database with Visual Basic</li>
-              <li>Projected Electronics Circuits</li>
-            </ul>
-            
+          > 
             
           </Typography>
         </Box>
@@ -162,29 +154,23 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Electronics Engineer
+            Bachelor's Degree in Electrical Engineering
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-          Condor Non-Lethal Technologies
+          Federal Center for Technological Education <br />Celso Suckow da Fonseca, Rio de Janeiro, Brazil
           </Typography>
           <Typography
             variant="subtitle1"
             align="left"
             className={classes.subtitle1}
           >
-            <ul>
-            <li>Designed and manufactured a Non-Lethal Electric Gun</li>
-            <li>Projected Electronic circuits for control and power</li>
-            <li>Wrote ﬁrmware for microcontroller PIC using C Language</li>
-            <li>Crafted a testing program for product approval</li>
-            </ul>   
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2012
+          2014
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -192,22 +178,17 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Automation Engineer
+            M.Sc. in Control, Automation and Robotics
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-          Laboratory of Non Destructive Testing, Corrosion and Welding
+            Federal University of Rio de Janeiro, Rio de Janeiro, Brazil
           </Typography>
           <Typography
             variant="subtitle1"
             align="left"
             className={classes.subtitle1}
           >
-            <ul>
-              <li>R&D on Material Engineering</li>
-              <li>Designed and Manufactured Fatigue Testing Machines</li>
-              <li>Projected hardware and software for machine control with LabView</li>
-              <li>Develop pioneer automated measurement systems</li>
-            </ul>
+
           </Typography>
         </Box>
         <Typography
@@ -222,23 +203,16 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Automation / Software Developer
+            Computer and Information Systems Post-Baccalaureate Diploma 
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            
+            Douglas College, British Columbia, Canada
           </Typography>
           <Typography
             variant="subtitle1"
             align="left"
             className={classes.subtitle1}
           >
-            <ul>
-              <li>Projected relational database schemas with MySQL</li>
-              <li>Designed data model with MongoDB for reports</li>
-              <li>Wrote REST Apis and Desktop Client-Server Application with Java for Database Management
-              Systems</li>
-              <li>Crafted Single Page Applications with Angular, Vue and React for consuming Rest Apis</li>
-            </ul>
           </Typography>
         </Box>
       </Box>
@@ -246,4 +220,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Education;
