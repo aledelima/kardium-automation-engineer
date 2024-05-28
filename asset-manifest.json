@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/kardium-automation-engineer/static/css/main.a440b89e.chunk.css",
+    "main.js": "/kardium-automation-engineer/static/js/main.2ae70445.chunk.js",
+    "main.js.map": "/kardium-automation-engineer/static/js/main.2ae70445.chunk.js.map",
+    "runtime-main.js": "/kardium-automation-engineer/static/js/runtime-main.5e7afe81.js",
+    "runtime-main.js.map": "/kardium-automation-engineer/static/js/runtime-main.5e7afe81.js.map",
+    "static/js/2.1ffcc778.chunk.js": "/kardium-automation-engineer/static/js/2.1ffcc778.chunk.js",
+    "static/js/2.1ffcc778.chunk.js.map": "/kardium-automation-engineer/static/js/2.1ffcc778.chunk.js.map",
+    "index.html": "/kardium-automation-engineer/index.html",
+    "precache-manifest.407eb7f9a0419fc9eecea443d102a777.js": "/kardium-automation-engineer/precache-manifest.407eb7f9a0419fc9eecea443d102a777.js",
+    "service-worker.js": "/kardium-automation-engineer/service-worker.js",
+    "static/css/main.a440b89e.chunk.css.map": "/kardium-automation-engineer/static/css/main.a440b89e.chunk.css.map",
+    "static/js/2.1ffcc778.chunk.js.LICENSE.txt": "/kardium-automation-engineer/static/js/2.1ffcc778.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/kardium-automation-engineer/static/media/avatar.7c8e5f50.png",
+    "static/media/App.css": "/kardium-automation-engineer/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/html-css-javascript-lg.jpg": "/kardium-automation-engineer/static/media/html-css-javascript-lg.54fd4234.jpg",
+    "static/media/html-css-javascript.jpg": "/kardium-automation-engineer/static/media/html-css-javascript.2c7701aa.jpg",
+    "static/media/javascript-fullstack.jpg": "/kardium-automation-engineer/static/media/javascript-fullstack.730958a2.jpg",
+    "static/media/mern-stack.jpg": "/kardium-automation-engineer/static/media/mern-stack.90616a5d.jpg",
+    "static/media/react-redux.jpg": "/kardium-automation-engineer/static/media/react-redux.a8b012a0.jpg",
+    "static/media/react.png": "/kardium-automation-engineer/static/media/react.f370c1e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e7afe81.js",
+    "static/js/2.1ffcc778.chunk.js",
+    "static/css/main.a440b89e.chunk.css",
+    "static/js/main.2ae70445.chunk.js"
+  ]
+}
